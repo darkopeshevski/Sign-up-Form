@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  display: flex;
+  height: 100vh;
+}
+
+@font-face {
+  font-family: nordic-font;
+  src: url(Norse-Bold.otf);
+}
+
+.logo-section {
+ flex: 3;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+ background-image: url(cole-keister-nfxIvG2B62I-unsplash.jpg);
+ background-size: cover;
+ background-position: center;
+}
+
+.logo {
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: nordic-font;
+  margin-top: 140px;
+  font-size: 5rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0 10px;
+}
+
+.background-link {
+  display: flex;
+  color: rgba(250, 250, 250, 0.824);
+  white-space: pre;
+
+}
+
+a {
+  color: rgba(250, 250, 250, 0.824);
+}
+
+img {
+  height: 125px;
+}
+
+.form-section {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+}
