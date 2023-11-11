@@ -61,6 +61,7 @@ img {
   flex: 5;
   display: flex;
   flex-direction: column;
+  background-color: #f9fafb;
 }
 
 .introduction-section {
@@ -146,4 +147,8 @@ button:hover {
 
 button:active {
   background-color: #3a4a2c; 
+}
+
+input.focus:focus {
+  box-shadow: 2px 1px 2px 2px rgba(0, 0, 0, 0.1);
 }
